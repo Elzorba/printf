@@ -1,7 +1,12 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdarg.h>
-#include <unistd.h>
+
+/**
+ *_printf - produces output according to a format
+ *@format: The output
+ *
+ *Return: On success 1.
+ *On error, -1 is returned, and errno is set appropriately.
+ */
 
 int _printf(const char *format, ...)
 {
