@@ -38,6 +38,7 @@ int _printf(const char *format, ...)
 			else if (*format == 'c')
 			{
 				char c = va_arg(argmnt, int);
+
 				_putchar(c);
 				charct_num++;
 			}
